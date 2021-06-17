@@ -1,0 +1,377 @@
+    header hr {
+        background-color: #636364;
+        margin-bottom: 0px;
+    }
+    
+    html,
+    body {
+        background-color: blue;
+        height: 100%;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        overflow-x: hidden;
+    }
+    
+    header {
+        background-color: #1f2021;
+    }
+    
+    ul,
+    li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menu-bar {
+        color: white;
+        padding-top: 30px;
+    }
+    
+    .menu-item {
+        margin-left: 43px;
+    }
+    
+    .menu-item a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        color: white;
+    }
+    
+    .menu-item a:hover {
+        text-decoration: none;
+        color: #06a6d0;
+        padding-bottom: 67px;
+        border-bottom: 1px solid #06a6d0;
+    }
+    
+    #menu-bar-container {
+        margin-bottom: 50px;
+    }
+    
+    .intro {
+        background-color: #1f2021;
+        margin-top: 0;
+        padding-top: 180px;
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+    }
+    
+    .intro-text {
+        width: 50%;
+        background-color: #0f748f;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        padding-top: 65px;
+        padding-bottom: 85px;
+    }
+    
+    .intro-text h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .intro-text p {
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .carousel-control-next {
+        padding-left: 10%;
+    }
+    
+    .carousel-control-prev {
+        padding-right: 10%;
+    }
+    
+    .carousel-indicators {
+        top: 490px;
+    }
+    
+    .carousel-indicators li {
+        border-radius: 50%;
+        width: 9px !important;
+        height: 9px !important;
+        background-color: #1f2021 !important;
+        border: white 1px solid !important;
+    }
+    
+    .carousel-indicators .active {
+        background-color: #00c7fc !important;
+    }
+    
+    .services {
+        background-color: white;
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        padding-top: 100px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .services h2 {
+        font-size: 30px;
+    }
+    
+    .services p {
+        color: #a8a8a8;
+        font-size: 13px;
+    }
+    
+    .services-title {
+        margin-bottom: 20px;
+    }
+    
+    #sep {
+        margin-top: 10px;
+        margin-left: 47%;
+    }
+    
+    .icon {
+        float: right;
+    }
+    
+    .icon-desc {
+        float: left;
+    }
+    
+    .col-6 p {
+        font-size: 13px;
+    }
+    
+    .col-6 h2 {
+        font-size: 20px;
+    }
+    
+    .phones {
+        height: 550px;
+        background-color: #1f2021;
+    }
+    
+    .phones-text {
+        background-color: #0f748f;
+        margin-top: 100px;
+        color: white;
+    }
+    
+    .portfolio {
+        background-color: white;
+        height: 350px;
+    }
+    
+    .portfolio p {
+        color: #a8a8a8;
+        font-size: 13px;
+    }
+    
+    ul li {
+        display: inline;
+    }
+    
+    button {
+        background-color: white;
+        border: 0px;
+        font-size: 16px;
+        margin-left: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    button:hover {
+        color: white;
+        background-color: #00c7fc;
+    }
+    
+    col-3>img {
+        border: 1px solid black;
+    }
+    
+    .video {
+        background-color: #0f748f;
+    }
+    
+    input {
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+    
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
+    }
+    
+    .white {
+        color: white;
+    }
+    
+    .input {
+        border: 1px solid white;
+        padding-left: 25px;
+        font-size: 16px;
+    }
+    
+    #subsr {
+        padding-bottom: 25px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 25px;
+        font-size: 16px;
+        border: 1px solid white;
+        background-color: #00c7fc;
+        color: white;
+    }
+    
+    #phonesimg {
+        margin-left: 50%;
+        margin-top: 174px;
+    }
+    
+    #phones_title {
+        padding-top: 60px;
+        margin-left: 60px;
+        padding-bottom: 65px;
+    }
+    
+    .desktop_icon {
+        margin-left: 60px;
+    }
+    
+    .desktop_text {
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    
+    #lowest {
+        margin-bottom: 65px;
+    }
+    
+    #portfolio_title {
+        padding-top: 100px;
+    }
+    
+    .images {
+        background-color: white;
+    }
+    
+    #image_row {
+        margin-bottom: 50px;
+    }
+    
+    .card_body {
+        background-color: bisque;
+    }
+    
+    h5 {
+        color: black;
+    }
+    
+    .card_body>p {
+        color: #22cefc
+    }
+    
+    .more {
+        height: 125px;
+    }
+    
+    #more_btn {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .video-section {
+        background-color: #1f2021;
+        height: 600px;
+        overflow: hidden;
+    }
+    
+    .video {
+        margin-top: 180px;
+    }
+    
+    #super_video {
+        font-size: 25px;
+        color: white;
+        padding-top: 60px;
+    }
+    
+    #video_text {
+        font-size: 13px;
+        color: white;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    
+    #seemore_btn {
+        font-size: 13px;
+        background-color: #1f2021;
+        color: white;
+        padding-bottom: 5px;
+        margin-bottom: 45px;
+    }
+    
+    .about {
+        background-color: white;
+    }
+    
+    #text_about {
+        color: #a8a8a8;
+        font-size: 13px;
+    }
+    
+    .screen_image {
+        margin-top: 100px;
+    }
+    
+    .results {
+        background-color: #121116;
+        overflow: hidden;
+    }
+    
+    .icons {
+        background-color: #096c89;
+        margin-top: 100px;
+        margin-bottom: 95px;
+    }
+    
+    .result_icons {
+        color: white;
+        display: inline-block;
+        margin-left: 150px;
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+    
+    #result_icon {
+        color: white;
+        display: inline-block;
+        margin-left: 70px;
+        padding-top: 25px;
+        padding-bottom: 45px;
+    }
+    
+    .numbers {
+        font-size: 51px;
+    }
+    
+    .number_descr {
+        font-size: 13px;
+    }
+    
+    .statistics {
+        background-color: white;
+    }
+    
+    #testimonials {
+        padding-top: 100px;
+    }
+    
+    #testim_descr {
+        color: #a8a8a8;
+        font-size: 13px;
+    }
